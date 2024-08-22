@@ -12,37 +12,40 @@ Install Passphrases in powershell with command:
     
 ## Parameters
 
--AddLeet
+AddLeet Switch. Substitutes numbers for letters in a random number of words. Default is false.
 
-    Switch. Substitutes numbers for letters in a random number of words. Default is false.
+-AddLeet
+    
+
+AddUpperCase Switch. Adds 1 Uppercase word, default is true.
 
 -AddUpperCase
 
-    Switch. Adds 1 Uppercase word, default is true.
 
--AddNumber
+AddNumber Switch. Add Number to the end of a word. Default is true.
 
-    Switch. Add Number to the end of a word. Default is true.
+  -AddNumber
+
+ReturnSecure Switch. Returns a Secure password instead of plain text. Default is false.
 
 -ReturnSecure
 
-    Switch. Returns a Secure password instead of plain text. Default is false.
+Language String. Accepts EN, ES, English, and Spanish. Default is English.
 
 -Language
 
-    String. Accepts EN, ES, English, and Spanish. Default is English.
+Cyrillic Switch. Switches on Cyrillic based passwords. Note, US English keyboards do not support this language type. Default is false.
+
 
 -Cyrillic
 
-    Switch. Switches on Cyrillic based passwords. Note, US English keyboards do not support this language type. Default is false.
+wordcount Int. Number of words to generate. Default is 3.
 
 -wordcount
 
-    Int. Number of words to generate. Default is 3.
+Delimiter String. Valid responses are '-','_',' ','#','@','&','('). Default is '-'.
 
 -Delimiter
-
-    String. Valid responses are '-','_',' ','#','@','&','('). Default is '-'.
 ## Examples
 
 #Example 1
