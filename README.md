@@ -35,18 +35,18 @@ Install-Module -Name Passphrases
  .Parameter Delimiter
   String. Valid responses are '-','_',' ','#','@','&','('). Default is '-'.
 
- .Example
-   # Displays an English passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
-   New-Passphrase
+ #Example 1
+ Displays an English passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
+ New-Passphrase
 
- .Example
-   # Displays a Spanish, Non-Cyrillic passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
+ #Example 2
+ Displays a Spanish, Non-Cyrillic passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
    New-Passphrase -Language Spanish
 
- .Example
-   # Displays a Spanish, with Cyrillic words enabled passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
+ #Example 3
+   Displays a Spanish, with Cyrillic words enabled passphrase that is 3 words long, includes a random number on a random word and delimited with '-'.
    New-Passphrase -Cyrillic -Language Spanish
 
- .Example
-   # Displays a Spanish, with Cyrillic words enabled passphrase that is 6 words long, includes a random number on a random word and delimited with '-'.
+ #Example 4
+   Displays a Spanish, with Cyrillic words enabled passphrase that is 6 words long, includes a random number on a random word and delimited with '-'.
    New-Passphrase -Cyrillic -Language Spanish -WordCount 6
